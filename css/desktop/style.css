@@ -1,0 +1,325 @@
+@media (min-width: 1000px) {
+		.cards {
+			flex-direction: row;
+			height: 128px;
+			width: 1146px;
+		}
+
+		.categories-title {
+			text-align: left;
+		}
+
+
+		.vacancies-cards {
+			width: 1146px;
+			height: 700px;
+		}
+
+		.vacancies-card {
+			flex-direction: row;
+
+			width: 1146px;
+			height: 160px;
+		}
+
+		.categories-title {
+			width: 1146px;
+			margin: 0 auto;
+		}
+
+		.jobs-title {
+			width: 1146px;
+			margin: 0 auto;
+			text-align: start;
+		}
+
+		.vacancies-card {
+			width: 1146px;
+			height: 160px;
+			justify-content: unset;
+
+			padding: 0 55px 0 30px;
+
+		}
+
+		.vacancies-cards {
+			width: 1146px;
+			height: 700px;
+		}
+
+		.vacansie-title {
+			align-items: start;
+
+			margin-right: 46px;
+		}
+
+		.company-logo{
+			margin-right: 20px;
+		}
+
+		.jobs-btn {
+			margin-right: 62px;
+		}
+
+		.vacancie-stack {
+			flex-direction: row;
+
+			width: 260px;
+			height: 27px;
+
+			margin-right: 197px;
+		}
+
+		.vacancie-stack > p {
+			margin-right: 15px;
+		}
+
+		.mail-div > div {
+			width: 420px;
+			height: 68px;
+		}
+
+		.mail-div > div > button {
+			width: 181px;
+		}
+
+		.mail-div > div > button > p{
+			display: inline-block;
+		}
+
+		.about {
+			height: 281px;
+			width: 1650px;
+			flex-direction: row;
+
+			margin: 0 auto;
+		}
+
+		.about-info {
+			width: 737px;
+			height: 111px;
+
+			flex-direction: row;
+
+			/* text-align: start; */
+		}
+
+		.info, .info > h3{
+			text-align: start;
+		}
+
+		.company, .company > p {
+			text-align: start;
+
+			padding: 0;
+			margin: 0;
+		}
+
+		.company > img {
+			padding-top: 0;
+			margin-top: 0;
+
+			margin-bottom: 33px;
+		}
+
+		.menu-btn {
+			display: flex;
+
+			width: 752px;
+
+			box-shadow: none;
+
+			height: 50px;
+
+			justify-content: space-between;
+		}
+
+		label {
+			display: none;
+		}
+
+		.menu-items {
+			flex-direction: row;
+
+			width: 250px;
+			height: 19px;
+
+			margin: 15px 0 0 0;
+		}
+
+		.join-block {
+			flex-direction: row;
+		}
+
+		.menu-item > a {
+			font-family: 'Fira Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+
+			/* Text/Primary */
+
+			color: #111238;
+		}
+
+		.menu-item:hover > a{
+			color: #1A75E8;
+			cursor: pointer;
+		}
+
+		.join-block {
+			width: 241px;
+			height: 49px;
+
+			align-items: center;
+		}
+
+		.login {
+			background: none;
+			box-shadow: none;
+
+			font-family: 'Fira Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+
+			/* Text/Primary */
+
+			color: #111238;
+		}
+
+		.register {
+			background: #1A75E8;
+			box-shadow: none;
+
+			width: 155px;
+			height: 49px;
+
+			font-family: 'Fira Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+			
+			color: #FFFFFF;
+		}
+
+		.login {
+			padding: 0;
+			margin: 0;
+		}
+
+		.pon {
+			justify-content: space-between;
+
+			width: 1145px;
+		}
+
+		.okey {
+			flex-direction: row;
+			justify-content: space-around;
+
+			width: 1146px;
+
+			margin: 0 auto;
+		}
+
+		.search {
+			width: 460px;
+			height: 348px;
+
+			margin: 0;
+
+			align-items: start;
+		}
+
+		.two-boy, .two-boy > img{
+			width: 544px;
+			height: 557px;
+		}
+
+
+		.search > h3 {
+			text-align: start;
+
+			font-family: 'Fira Sans';
+			font-style: normal;
+			font-weight: 900;
+			font-size: 44px;
+			line-height: 53px;
+			
+			/* Text/Primary */
+			
+			color: #111238;
+		}
+
+		.search > p {
+			text-align: start;
+
+			width: 460px;
+			height: 75px;
+
+			
+		}
+
+		.search-container {
+			justify-content: space-around;
+		}
+
+		.search-container > button > p {
+			display: block;
+
+			font-family: 'Fira Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+
+			color: #FFFFFF;
+
+			margin-left: 10px;
+		}
+
+		.search-container {
+			width: 447px;
+			height: 70px;
+		}
+
+		.search-container > button {
+			width: 211px;
+			height: 49px;
+		}
+
+		.search-container > input {
+
+
+			font-family: 'Fira Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+
+			/* Inputs/Grey */
+
+			color: #B2B2B2;
+		}
+
+		.header-container {
+			width: 345px;
+			height: 27px;
+
+			flex-direction: row;
+		}
+
+		.header-cnt-info {
+			width: 259px;
+			height: 27px;
+		}
+
+		.about {
+			width: 1400px;
+		}
+
+}
